@@ -1,0 +1,355 @@
+body {
+    font-family: 'Open Sans';
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    background-color: hsl(218, 28%, 13%);
+    }
+header{
+    font-family: 'Raleway';
+    font-weight: 400;
+    display: flex;
+    padding: 30px;
+    background-color: hsl(217, 28%, 15%);
+    
+} 
+
+.logo{
+    width: 50%;
+    padding-top: 26px;
+}
+.files {
+    /* To move the image to center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 30px;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+}
+.nav_bar{
+    width: 50%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width:769px) {
+    /* Responsiveness of nav */
+    .logo{
+       width: 30%;
+       display: flex;
+       align-items: center;
+       padding-top: 5px;
+
+    }
+    .nav_bar{
+       width: 70%;
+       padding-left: 30px;
+    }
+    .row-3{
+        flex-direction: column;
+        display: flex;
+        /* justify-content: center; */
+        /* flex-wrap: wrap; */
+        background-color: hsl(217deg 27% 13%);
+        /* margin-top: -10px; */
+        /* padding-bottom: 50px;
+        text-align: center; */
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .left-3{
+        padding: 0% 2% 0% 0%;
+        width: 100% !important;
+    }
+    .right-3 {
+        width: 100% !important; 
+        display: flex;
+        justify-content: center;
+    }
+    .group1{
+        margin-left: 45px;
+    }
+    .testimonies{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        right: 12px;
+    }
+    .testimony {
+        width: 290px !important;
+        height: 200px;
+        margin-bottom: 20px;
+        background-color: hsl(219, 30%, 18%);
+    }
+    .fa-quote-left {
+        font-size: 35px;
+        color: #60cdc8;
+        display: block;
+        position: relative;
+        top: 75px;
+        left: 33px !important;
+    }
+    .form_box {
+        padding: 30px !important;
+        width: 310px !important;
+        text-align: center !important;
+        position: relative;
+        left: 5px;
+        background-color: hsl(219deg 30% 18%) !important;
+    }
+    form {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    input {
+        width: 300px !important;
+        height: 30px;
+
+        border-radius: 30px !important;
+        border: none !important;
+        outline: none !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .social_media{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 85px;
+    }
+}/* CSS for header end here */
+
+
+main{
+    /* background-image: url("./images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat; */
+    background-color: hsl(217, 28%, 15%);
+}
+.intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 710px;
+}
+.h1-intro{
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+.p-intro{
+    /* font-size: 25px; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button{
+    background-color: #60cdc8;;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 50px;
+}
+.header{
+    font-weight: 700;
+    font-family: Raleway;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(217deg 27% 13%);
+    margin-top: -10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.box-left{
+    width: 375px;
+}
+.left{
+    margin: 0% 4% 0% 0%;
+}
+.box-right{
+    width: 375px;
+}
+.right{
+    margin: 0% 0% 0% 4%;
+}
+.files-left-right {
+    /* To move the image to center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.row-3{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    background-color: hsl(217deg 27% 13%);
+    /* margin-top: -10px; */
+    /* padding-bottom: 50px;
+    text-align: center; */
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.left-3{
+    padding: 0% 2% 0% 0%;
+    width: 50%;
+}
+.right-3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.h1-link{
+    color: #60cdc8;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.test{
+    background-color:hsl(217deg 27% 13%);
+}
+.border{
+    position: relative;
+    margin: 60px 60px 0px;
+}
+.testimonies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* position: relative;
+    right: 10px; */
+}
+.testimony{
+    width: 375px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: hsl(219, 30%, 18%);
+    
+}
+.camp{
+    margin: 30px;
+}
+.profile {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 50%;
+}
+.p-test{
+    text-align: justify;
+}
+.fa-quote-left{
+    font-size:35px;
+    color:#60cdc8;
+    display: block;
+    position: relative;
+    top: 75px; 
+    left: 57px;
+}
+.identity{
+    display: flex;
+    justify-content: start;
+    padding: 60px;
+    width: 260px;
+    height: 130px;
+    position: relative;
+    right: 60px;
+    bottom: 60px;
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+}
+.form_box{
+    padding: 30px;
+    width: 760px;
+    text-align: center;
+    background-color: hsl(219deg 30% 18%);
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 500px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer{
+    padding: 100px 50px 50px 50px;
+    background-color: hsl(216, 53%, 9%);
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+.location_detail{
+    width: 310px;
+    text-align: start;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.list{
+    width: 150px;
+    list-style: none;
+}
+.social_media{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
